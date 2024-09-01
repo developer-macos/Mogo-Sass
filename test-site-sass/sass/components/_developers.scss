@@ -1,0 +1,35 @@
+.main-container-four{
+    border: solid 1px;
+    max-width: 1200px ;
+  }
+
+  .box {
+    width: 350px;
+    position: relative;
+    }
+
+    .span{
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+      padding-left: 80px;
+      }
+
+      .text-1{
+        text-align: center;
+        }
+
+        .r {
+            color: $text-color;
+          }
+
+          .box img{
+            width: 100%;
+          display: block;
+          }
+
+          .main-container-four{
+            display: flex;
+            gap: 32px;
+            margin-bottom: 82px;
+            margin-left: 665px;
+          }

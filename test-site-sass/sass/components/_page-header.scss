@@ -1,0 +1,34 @@
+.header-container{
+    margin: 0 auto;
+    border: solid 1px;
+    max-width: 1200px ;
+    margin-bottom: 68px;
+  }
+
+  .logo {
+    color: $logo-color;
+    font-size: larger;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list a {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .ABOUT {
+    color: $deco-color;
+  }
+
+  .rel{
+    color: $logo-color;
+    text-decoration: none;
+  }
