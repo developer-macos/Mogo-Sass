@@ -114,34 +114,24 @@
   margin-left: 665px;
 }
 
-body {
-  background-color: #FFFFFF;
-}
-
-.button {
-  background-color: #95e1d3;
-  color: rgb(255, 255, 255);
-  font-size: 14px;
+.footer-container {
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px;
 }
 
 .span-footer {
   color: rgb(243, 129, 129);
 }
 
-.man-list {
-  display: flex;
-  flex-wrap: wrap;
-  text-decoration: none;
-}
-
 .hr {
   width: 1200px;
 }
 
-.footer-container {
-  margin: 0 auto;
-  border: solid 1px;
-  max-width: 1200px;
+.button {
+  background-color: #95e1d3;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
 }
 
 .button {
