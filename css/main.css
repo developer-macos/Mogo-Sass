@@ -1,0 +1,212 @@
+.body {
+  background-color: black;
+}
+
+.p-dark {
+  color: white;
+}
+
+.photographys {
+  color: white;
+}
+
+.main-container-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-container-one {
+  color: white;
+  border: none;
+  text-align: center;
+  margin-left: 1200px;
+  font-size: 24px;
+}
+
+.text-1 {
+  color: white;
+}
+
+.header-container {
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px;
+  margin-bottom: 68px;
+}
+.header-container .logo {
+  color: #95e1d3;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+}
+.header-container .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-container .nav-list .ABOUT {
+  color: rgb(243, 129, 129);
+}
+.header-container .nav-list .rel {
+  color: #95e1d3;
+  text-decoration: none;
+}
+.header-container .nav-list a {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.main-container-one {
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px;
+  margin-bottom: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-container-two {
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px;
+  margin-bottom: 100px;
+}
+.main-container-two .photography {
+  text-transform: uppercase;
+}
+.main-container-two .lorem-i {
+  color: rgb(182, 182, 182);
+}
+
+.main-container-three {
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px;
+  margin-bottom: 27px;
+}
+.main-container-three .meet {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0%;
+}
+.main-container-three .lorem-i {
+  color: rgb(182, 182, 182);
+}
+
+.main-container-four {
+  border: solid 1px;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 82px;
+  margin-left: 665px;
+}
+.main-container-four .box {
+  width: 350px;
+  position: relative;
+}
+.main-container-four .box .span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  padding-left: 80px;
+}
+.main-container-four .box .text-1 {
+  text-align: center;
+}
+.main-container-four .box .r {
+  color: rgb(182, 182, 182);
+}
+.main-container-four .box .box img {
+  width: 100%;
+  display: block;
+}
+
+.footer-container {
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px;
+}
+
+.span-footer {
+  color: rgb(243, 129, 129);
+}
+
+.hr {
+  width: 1200px;
+}
+
+.button {
+  background-color: #95e1d3;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+.button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin-left: 1010px;
+  cursor: pointer;
+}
+
+.button:hover {
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-animation-name: button;
+          animation-name: button;
+  background-color: #2196f3;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  color: white;
+}
+
+@-webkit-keyframes button {
+  0% {
+    -webkit-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  50% {
+    -webkit-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  100% {
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    background-color: aqua;
+  }
+}
+
+@keyframes button {
+  0% {
+    -webkit-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  50% {
+    -webkit-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  100% {
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    background-color: aqua;
+  }
+}/*# sourceMappingURL=main.css.map */

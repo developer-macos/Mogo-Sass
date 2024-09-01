@@ -1,53 +1,51 @@
-.footer-container{
-    margin: 0 auto;
-border: solid 1px;
-max-width: 1200px ;
+.footer-container {
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px;
 }
 
-.span-footer{
-    color: rgb(243, 129, 129)
+.span-footer {
+  color: rgb(243, 129, 129);
+}
+
+.hr {
+  width: 1200px;
+}
+
+.button {
+  background-color: $logo-color;
+  color: $button-color;
+  font-size: 14px;
+}
+
+.button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin-left: 1010px;
+  cursor: pointer;
+}
+
+.button:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 2s;
+  animation-name: button;
+  background-color: #2196f3;
+  animation-duration: 4s;
+  color: white;
+}
+
+@keyframes button {
+  0% {
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   }
 
-    
-  .hr{
-    width: 1200px;
-  }
-  
-
-  .button {
-    background-color: $logo-color;
-    color: $button-color;
-    font-size: 14px;
+  50% {
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
 
-  .button{
-    border: none;
-    width: 150px;
-    height: 40px;
-    margin-left: 1010px;
-    cursor: pointer;
+  100% {
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    background-color: aqua;
   }
-
-  .button:hover{
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition-duration: 2s;
-    animation-name: button;
-    background-color: #2196F3;
-    animation-duration: 4s;
-    color: white;
-  }
-  
-  @keyframes button {
-    0% {
-      transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-    }
-  
-    50% {
-      transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    }
-  
-    100% {
-      transition: cubic-bezier(0.215, 0.610, 0.355, 1);
-      background-color: aqua;
-    }
-  }
+}

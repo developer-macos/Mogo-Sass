@@ -1,19 +1,20 @@
-.main-container-three{
-    margin: 0 auto;
-border: solid 1px;
-max-width: 1200px ;
-margin-bottom: 27px;
-}
-.meet{
-    font-family: "Montserrat", sans-serif;
+.main-container-three {
+  margin: 0 auto;
+  border: solid 1px;
+  max-width: 1200px;
+  margin-bottom: 27px;
+
+  .meet {
+    font-family: 'Montserrat', sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
     line-height: 37px;
-  letter-spacing: 0%;
+    letter-spacing: 0%;
   }
 
-  .lorem-i{
+  .lorem-i {
     color: $text-color;
   }
+}
