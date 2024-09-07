@@ -1,6 +1,8 @@
 .main-container-four {
   border: solid 1px;
   max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 32px;
   margin-bottom: 82px;

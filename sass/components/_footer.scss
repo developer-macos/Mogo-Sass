@@ -27,24 +27,57 @@
 }
 
 .button:hover {
+  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition-duration: 2s;
-  animation-name: button;
+  -webkit-transition-duration: 2s;
+       -o-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-animation-name: button;
+          animation-name: button;
   background-color: #2196f3;
-  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
   color: white;
 }
 
-@keyframes button {
+@-webkit-keyframes button {
   0% {
+    -webkit-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   }
 
   50% {
+    -webkit-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -o-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
 
   100% {
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    background-color: aqua;
+  }
+}
+
+@keyframes button {
+  0% {
+    -webkit-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+
+  50% {
+    -webkit-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    -o-transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  100% {
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: cubic-bezier(0.215, 0.61, 0.355, 1);
     background-color: aqua;
   }

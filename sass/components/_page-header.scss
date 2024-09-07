@@ -7,12 +7,17 @@
   .logo {
     color: $logo-color;
     font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
     text-decoration: none;
   }
   .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
     .ABOUT {
       color: $deco-color;
