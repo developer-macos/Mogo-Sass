@@ -54,7 +54,7 @@
 .header-container .nav-list .ABOUT {
   color: rgb(243, 129, 129);
 }
-.header-container .nav-list .rel {
+.header-container .nav-list .link__menu {
   color: #95e1d3;
   text-decoration: none;
 }
