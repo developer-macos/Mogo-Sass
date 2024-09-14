@@ -30,4 +30,15 @@
       display: block;
     }
   }
+
+  .box:hover{
+    transform: scale(1.1);
+    transition-duration: 250ms;
+    width: 350px;
+    
+  }
+
+  .box{
+    gap: 20px;
+  }
 }

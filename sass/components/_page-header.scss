@@ -27,6 +27,11 @@
       color: $logo-color;
       text-decoration: none;
     }
+    .link__menu:hover{
+      color: aqua;
+      transform: scale(1.2);
+      transition-duration: 250ms;
+    }
   }
   .nav-list a {
     padding: 0 10px;
