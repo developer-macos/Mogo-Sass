@@ -63,6 +63,18 @@
   text-decoration: none;
 }
 
+.section {
+  border-top: 1px solid tomato;
+  border-bottom: 1px solid tomato;
+  padding: 20px;
+}
+
+.header {
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+  min-height: 80px;
+}
+
 .main-container-one {
   margin: 0 auto;
   border: solid 1px;
@@ -159,33 +171,6 @@
 
 .hr {
   width: 1200px;
-}
-
-.button {
-  background-color: #95e1d3;
-  color: rgb(255, 255, 255);
-  font-size: 14px;
-}
-
-.button {
-  border: none;
-  width: 150px;
-  height: 40px;
-  margin-left: 1010px;
-  cursor: pointer;
-}
-
-.button:hover {
-  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
-  -webkit-animation-name: button;
-  animation-name: button;
-  background-color: #2196f3;
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  color: white;
 }
 
 @-webkit-keyframes button {

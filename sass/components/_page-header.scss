@@ -40,3 +40,12 @@
     text-decoration: none;
   }
 }
+ .section {
+  @include bordered(tomato);
+  padding: 20px;
+ }
+ 
+ .header {
+  @include bordered(green);
+  min-height: 80px;
+ }

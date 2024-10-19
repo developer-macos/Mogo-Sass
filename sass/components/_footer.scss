@@ -12,34 +12,34 @@
   width: 1200px;
 }
 
-.button {
-  background-color: $logo-color;
-  color: $button-color;
-  font-size: 14px;
-}
+// .button {
+//   background-color: $logo-color;
+//   color: $button-color;
+//   font-size: 14px;
+// }
 
-.button {
-  border: none;
-  width: 150px;
-  height: 40px;
-  margin-left: 1010px;
-  cursor: pointer;
-}
+// .button {
+//   border: none;
+//   width: 150px;
+//   height: 40px;
+//   margin-left: 1010px;
+//   cursor: pointer;
+// }
 
-.button:hover {
-  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  -webkit-transition-duration: 2s;
-       -o-transition-duration: 2s;
-          transition-duration: 2s;
-  -webkit-animation-name: button;
-          animation-name: button;
-  background-color: #2196f3;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  color: white;
-}
+// .button:hover {
+//   -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+//   -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+//   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+//   -webkit-transition-duration: 2s;
+//        -o-transition-duration: 2s;
+//           transition-duration: 2s;
+//   -webkit-animation-name: button;
+//           animation-name: button;
+//   background-color: #2196f3;
+//   -webkit-animation-duration: 4s;
+//           animation-duration: 4s;
+//   color: white;
+// }
 
 @-webkit-keyframes button {
   0% {
